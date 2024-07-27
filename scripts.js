@@ -24,3 +24,7 @@ function prevSlide() {
 
 // Initialize the carousel
 showSlide(currentSlide);
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
