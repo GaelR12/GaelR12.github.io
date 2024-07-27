@@ -21,7 +21,15 @@
     <main>
         <div class="resume-container">
             <aside>
-                <img src="profile.jpg" alt="Profile Picture" class="profile">
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img src="profile1.jpg" alt="Profile Picture 1" class="profile">
+                        <img src="profile2.jpg" alt="Profile Picture 2" class="profile">
+                        <img src="profile3.jpg" alt="Profile Picture 3" class="profile">
+                    </div>
+                    <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+                </div>
                 <section id="hobbies">
                     <h2>Hobbies</h2>
                     <ul class="hobbies-list">
@@ -80,5 +88,6 @@
     <footer>
         <p>&copy; 2024 Gael Rueda</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
